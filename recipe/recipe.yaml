@@ -1,13 +1,13 @@
 context:
-  version: "0.5.1"
+  version: "0.6.0"
 
 package:
   name: "nvmolkit"
   version: ${{ version }}
 
 source:
-  url: https://github.com/NVIDIA-Digital-Bio/nvMolKit/archive/v${{ version }}.tar.gz
-  sha256: cda91a8b499026e7595cb97a5936609a01e02dc82306401d6ad8ff96fe626f12
+  url: https://github.com/NVIDIA-BioNeMo/nvMolKit/archive/v${{ version }}.tar.gz
+  sha256: 31ac8f977fc5bd9f8f866265060fc50000f36a0c92cb0d035b035f83f37d6208
 
 build:
   number: 0
@@ -46,7 +46,6 @@ requirements:
     - python
     - pytorch
     - rdkit ==${{ librdkit_dev }}
-    - triton
 
 tests:
   - python:
@@ -55,7 +54,7 @@ tests:
       pip_check: false
 
 about:
-  homepage: https://github.com/NVIDIA-Digital-Bio/nvMolKit
+  homepage: https://github.com/NVIDIA-BioNeMo/nvMolKit
   summary: nvMolKit is a CUDA-backed python library for accelerating common RDKit molecular operations
   description: |
     nvMolKit is a CUDA-backed python library for accelerating common RDKit molecular operations.

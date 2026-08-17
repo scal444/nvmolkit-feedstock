@@ -1,17 +1,18 @@
 # librdkit_dev is zipped with libboost_* because each librdkit build links
-# against a specific libboost minor version; the older librdkit versions only
-# have libboost 1.86 builds on conda-forge, while 2026.3.1 has a 1.88 build.
+# against a specific libboost minor version. nvMolKit 0.6.0 supports RDKit
+# 2025.09.1 through 2026.03.5.
 librdkit_dev:
-  - "2025.3.3"
-  - "2025.3.4"
-  - "2025.3.5"
-  - "2025.3.6"
   - "2025.9.1"
   - "2025.9.2"
   - "2025.9.3"
   - "2025.9.4"
   - "2025.9.5"
+  - "2025.9.6"
   - "2026.3.1"
+  - "2026.3.2"
+  - "2026.3.3"
+  - "2026.3.4"
+  - "2026.3.5"
 
 libboost_devel:
   - "1.86"
@@ -20,10 +21,11 @@ libboost_devel:
   - "1.86"
   - "1.86"
   - "1.86"
-  - "1.86"
-  - "1.86"
-  - "1.86"
-  - "1.88"
+  - "1.90"
+  - "1.90"
+  - "1.90"
+  - "1.90"
+  - "1.90"
 
 libboost_headers:
   - "1.86"
@@ -32,10 +34,11 @@ libboost_headers:
   - "1.86"
   - "1.86"
   - "1.86"
-  - "1.86"
-  - "1.86"
-  - "1.86"
-  - "1.88"
+  - "1.90"
+  - "1.90"
+  - "1.90"
+  - "1.90"
+  - "1.90"
 
 libboost_python_devel:
   - "1.86"
@@ -44,10 +47,11 @@ libboost_python_devel:
   - "1.86"
   - "1.86"
   - "1.86"
-  - "1.86"
-  - "1.86"
-  - "1.86"
-  - "1.88"
+  - "1.90"
+  - "1.90"
+  - "1.90"
+  - "1.90"
+  - "1.90"
 
 zip_keys:
   - - librdkit_dev
