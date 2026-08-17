@@ -22,54 +22,6 @@ jobs:
       max-parallel: 50
       matrix:
         include:
-          - CONFIG: linux_64_c_compiler_version13c_stdlib_version2.17cuda_compiler_version12.6cxx_compiler_version13libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev2025.9.1_h01b088e6
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_c_compiler_version13c_stdlib_version2.17cuda_compiler_version12.6cxx_compiler_version13libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev2025.9.1_ha276db69
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_c_compiler_version13c_stdlib_version2.17cuda_compiler_version12.6cxx_compiler_version13libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev2025.9.1_hddd17255
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_c_compiler_version13c_stdlib_version2.17cuda_compiler_version12.6cxx_compiler_version13libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev2025.9.1_hebb54514
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
           - CONFIG: linux_64_c_compiler_version13c_stdlib_version2.17cuda_compiler_version12.6cxx_compiler_version13libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev2025.9.2_h502f6d1c
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
@@ -550,54 +502,6 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev2025.9.1_h1ddbf516
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev2025.9.1_h33b110a6
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev2025.9.1_h396ce793
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev2025.9.1_h3b4a3c01
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
           - CONFIG: linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev2025.9.2_h272ea129
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
@@ -1067,54 +971,6 @@ jobs:
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14libboost_devel1.90libboost_headers1.90libboost_python_devel1.90librdkit_dev2026.3.5_hf1e34062
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.0cxx_compiler_version15libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev2025.9.1_h2676e661
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.0cxx_compiler_version15libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev2025.9.1_h724694b6
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.0cxx_compiler_version15libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev2025.9.1_he08d0117
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.0cxx_compiler_version15libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev2025.9.1_he33023b4
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -1774,18 +1630,6 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_c_compiler_version13c_stdlib_version2.17cuda_compiler_version12.6cxx_compiler_version13libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_hbb5f0b2f
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_c_compiler_version13c_stdlib_version2.17cuda_compiler_version12.6cxx_compiler_version13libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_hbfc88677
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
@@ -1798,31 +1642,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_c_compiler_version13c_stdlib_version2.17cuda_compiler_version12.6cxx_compiler_version13libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_hc7966947
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_c_compiler_version13c_stdlib_version2.17cuda_compiler_version12.6cxx_compiler_version13libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_hc900cb07
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_c_compiler_version13c_stdlib_version2.17cuda_compiler_version12.6cxx_compiler_version13libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_hd6646755
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -1871,18 +1691,6 @@ jobs:
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_c_compiler_version13c_stdlib_version2.17cuda_compiler_version12.6cxx_compiler_version13libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_hefdecef8
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_c_compiler_version13c_stdlib_version2.17cuda_compiler_version12.6cxx_compiler_version13libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_hf5f4f7ec
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -2182,18 +1990,6 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_h1b266d88
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_h21b9b00e
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
@@ -2338,31 +2134,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_hc756ae58
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_hc7926a76
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_hc86d384b
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -2399,18 +2171,6 @@ jobs:
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_hd8ef705a
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_hf7b89405
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -2674,18 +2434,6 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.0cxx_compiler_version15libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_h1d38529b
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.0cxx_compiler_version15libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_h20eec129
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
@@ -2866,18 +2614,6 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.0cxx_compiler_version15libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_haae495f6
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.0cxx_compiler_version15libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_hb5196721
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
@@ -2914,31 +2650,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.0cxx_compiler_version15libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_hd35655d3
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.0cxx_compiler_version15libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_heaacb476
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
-            STORE_BUILD_ARTIFACTS: False
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: quick
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.0cxx_compiler_version15libboost_devel1.86libboost_headers1.86libboost_python_devel1.86librdkit_dev202_hee885b26
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
